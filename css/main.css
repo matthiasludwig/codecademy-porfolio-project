@@ -263,20 +263,22 @@ textarea {
 
 /* Beginning of css modificaton */
 
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  margin: 0 15%;
+}
+
+nav {
+  padding-top: 1rem;
+}
+
 h1 {
   display: inline-block
 }
 
 img {
   width: 30%;
-}
-
-nav {
-  display: inline-block;
-}
-
-nav p {
-  display: inline;
 }
 
 .skills-icons {
