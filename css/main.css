@@ -296,6 +296,15 @@ nav p a:hover {
   padding: 0.7rem;
 }
 
+i {
+  padding: 0.1rem;
+}
+
+i:hover {
+  background-color: black;
+  color: white;
+}
+
 #about-me {
   display: flex;
 }
