@@ -133,7 +133,15 @@
             </div>
         </main>
         <footer>
-            <p>Made with <i class="fas fa-heart"></i> in Berlin</p>
+            <p>Made with <i class="fas fa-heart" id="heart"></i> in Berlin</p>
         </footer>
     </body>
+    <script>
+        const heart = document.getElementById("heart");
+        heart.addEventListener('dblclick', () => {
+            heart.style.fontSize = "2rem";
+            alert("You found my Easter Egg!");
+            setTimeout(() => heart.style.fontSize = "1rem", 1500);
+        })
+    </script>
 </html>
