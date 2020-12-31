@@ -296,11 +296,11 @@ nav p a:hover {
   padding: 0.7rem;
 }
 
-i {
+span {
   padding: 0.1rem;
 }
 
-i:hover {
+span:hover {
   background-color: black;
   color: white;
 }
@@ -364,10 +364,10 @@ footer {
   font-weight: 500;
 }
 
-footer p i {
+footer p span {
   color: red;
 }
 
-footer p i:hover {
+footer p span:hover {
   color: black;
 }
